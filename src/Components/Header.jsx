@@ -101,7 +101,7 @@ const Header = ({HandlerFun}) => {
         <div className=' relative flex items-center justify-center' onClick={() => dispatch(SHOWCART(true))}>
             <MdShoppingCart className=' text-textColor text-2xl ml-8 cursor-pointer ' />
             <div className=' absolute -right-2 -top-2 w-5 h-5 rounded-full bg-cartNumBg'>
-              <p className='text-sm text-white font-semibold flex justify-center items-center'>2</p>
+              <p className='text-sm text-white font-semibold flex justify-center items-center'>{stateCart.length}</p>
             </div>
         </div>
           <motion.div
