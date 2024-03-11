@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@layer base
+{
+    .container 
+    {
+     @apply p-3 md:p-6 px-8  md:px-16 mx-auto 
+    }
+}
+html,
+body
+{
+    scroll-behavior: smooth;
+    transform:translate()
+}
